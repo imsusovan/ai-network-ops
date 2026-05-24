@@ -1,0 +1,11 @@
+nodes:
+  r1:
+    container: clab-ringlab-r1
+  r2:
+    container: clab-ringlab-r2
+  r3:
+    container: clab-ringlab-r3
+  r4:
+    container: clab-ringlab-r4
+  r5:
+    container: clab-ringlab-r5
