@@ -92,3 +92,7 @@ python tests/integration/ospf_test.py
 ### 🤝 Contributing
 Pull requests are welcome! Please open an issue first to discuss proposed changes.
 
+### 🏗️ Architecture
+
+![AI-BGP Architecture Diagram](https://copilot.microsoft.com/th/id/BCO.767b4425-3e03-4d4f-b506-a69dbb2be4a0.png)
+
