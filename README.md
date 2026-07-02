@@ -35,7 +35,8 @@ https://copilot.microsoft.com/th/id/BCO.767b4425-3e03-4d4f-b506-a69dbb2be4a0.png
 |   Reports/Tests   |  <-- OSPF test reports, CI/CD outputs
 +-------------------+
 
-![AI-Network-Ops Architecture](docs/architecture.png)
+![AI-Network-Ops Architecture](architecture.png)
+
 
 
 Key Components
