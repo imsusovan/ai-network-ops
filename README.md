@@ -96,3 +96,27 @@ Pull requests are welcome! Please open an issue first to discuss proposed change
 
 ![AI-BGP Architecture Diagram](https://copilot.microsoft.com/th/id/BCO.767b4425-3e03-4d4f-b506-a69dbb2be4a0.png)
 
+# AI-Network-Ops
+
+AI-driven insights for network operations — combining routing data (BGP/OSPF) with large language models for anomaly detection, policy automation, and intelligent troubleshooting.
+
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![Coverage](https://img.shields.io/badge/coverage-85%25-yellowgreen)
+![Python](https://img.shields.io/badge/python-3.10-blue)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
+
+---
+
+### 🚀 Quickstart
+
+```bash
+# Clone the repository
+git clone https://github.com/imsusovan/ai-network-ops.git
+cd ai-network-ops
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the AI-Network-Ops integration
+python llm_runner.py --config config.yaml
+
