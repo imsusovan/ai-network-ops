@@ -38,7 +38,6 @@ https://copilot.microsoft.com/th/id/BCO.767b4425-3e03-4d4f-b506-a69dbb2be4a0.png
 ![AI-Network-Ops Architecture](https://copilot.microsoft.com/th/id/BCO.767b4425-3e03-4d4f-b506-a69dbb2be4a0.png)
 
 
-
 Key Components
 llm_runner.py → Core AI execution logic
 
