@@ -1,7 +1,7 @@
 
 ---
 
-## 📘 Project: BGP-AI-Test-POC
+## 📘 Project: AI-Network-ops
 
 ### 🔍 Overview
 This proof-of-concept explores how **AI can enhance Border Gateway Protocol (BGP)** operations. By integrating LLM-driven analysis with routing data, the project demonstrates potential applications such as anomaly detection, automated policy suggestions, and intelligent troubleshooting.
