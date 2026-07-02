@@ -1,3 +1,8 @@
+I see what happened — GitHub’s README editor strips formatting if you paste in chunks or if the Markdown isn’t cleanly structured. Let me give you a **single, properly formatted README.md** that you can paste *all at once*. This version keeps consistent headings, badges, and sections so it won’t collapse into just “Overview” and “Quickstart.”
+
+---
+
+```markdown
 # 📘 Project: AI-Network-Ops
 
 AI-driven insights for network operations — combining routing data (BGP/OSPF) with large language models for anomaly detection, policy automation, and intelligent troubleshooting.
@@ -26,10 +31,15 @@ pip install -r requirements.txt
 
 # Run the AI-Network-Ops integration
 python llm_runner.py --config config.yaml
-🏗️ Architecture
-https://copilot.microsoft.com/th/id/BCO.767b4425-3e03-4d4f-b506-a69dbb2be4a0.png
+```
 
-text
+---
+
+## 🏗️ Architecture
+
+`https://copilot.microsoft.com/th/id/BCO.767b4425-3e03-4d4f-b506-a69dbb2be4a0.png`
+
+```text
 +-------------------+
 |   Data Sources    |  <-- BGP/OSPF routing data, configs
 +-------------------+
@@ -48,42 +58,43 @@ text
 +-------------------+
 |   Reports/Tests   |  <-- OSPF test reports, CI/CD outputs
 +-------------------+
-📂 Key Components
-llm_runner.py → Core AI execution logic
+```
 
-rag/ → Retrieval-Augmented Generation modules
+---
 
-scripts/ → Utility scripts for automation
+## 📂 Key Components
+- **`llm_runner.py`** → Core AI execution logic  
+- **`rag/`** → Retrieval-Augmented Generation modules  
+- **`scripts/`** → Utility scripts for automation  
+- **`tests/`** → Unit & integration test cases  
+- **`jenkins/`** → CI/CD pipelines for static analysis  
+- **`sonar-project.properties`** → SonarQube integration  
 
-tests/ → Unit & integration test cases
+---
 
-jenkins/ → CI/CD pipelines for static analysis
+## ✅ Features
+- AI-driven insights for BGP/OSPF routing  
+- Automated test reports (`ospf_test_report.txt`)  
+- Jenkins pipelines for static analysis  
+- SonarQube integration for code quality  
+- Modular design for extensibility  
 
-sonar-project.properties → SonarQube integration
+---
 
-✅ Features
-AI-driven insights for BGP/OSPF routing
+## 🧪 Testing
 
-Automated test reports (ospf_test_report.txt)
-
-Jenkins pipelines for static analysis
-
-SonarQube integration for code quality
-
-Modular design for extensibility
-
-🧪 Testing
 Run all tests:
-
-bash
+```bash
 pytest tests/
+```
+
 Integration test example:
-
-bash
+```bash
 python tests/integration/ospf_test.py
-Sample output:
+```
 
-Code
+Sample output:
+```
 ================== test session starts ==================
 collected 12 items
 
@@ -92,14 +103,20 @@ tests/test_rag.py .....
 tests/test_llm_runner.py ...
 
 ================== 12 passed in 2.34s ==================
-📈 Roadmap
-Expand unit test coverage
+```
 
-Add real-world BGP datasets
+---
 
-Enhance logging & error handling
+## 📈 Roadmap
+- Expand unit test coverage  
+- Add real-world BGP datasets  
+- Enhance logging & error handling  
+- Publish demo notebooks with sample outputs  
 
-Publish demo notebooks with sample outputs
+---
 
-🤝 Contributing
+## 🤝 Contributing
 Pull requests are welcome! Please open an issue first to discuss proposed changes.
+```
+
+---
