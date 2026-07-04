@@ -1,29 +1,5 @@
 ---
 
-## 📘 Project: AI-Network-Ops
-AI Network Ops brings intelligence to network operations:
-- Multi-vendor orchestration (Juniper / Arista / Nokia SRL / FRR)
-- Risk-gated automation (auto / approve / page-out)
-- Immutable audit trail with confirmed-commit rollback
-- AI-driven anomaly detection and remediation
-
----
-
-## 🧠 Architecture
-![Architecture Diagram](assets/architecture-ai-network-ops.png)
-
----
-
-## 🚀 Quickstart
-```bash
-git clone https://github.com/imsusovan/ai-network-ops.git
-cd ai-network-ops
-python3 -m venv venv && source venv/bin/activate
-pip install -r requirements.txt
-python3 app.py
-
-
-
 # 📘 Project: AI-Network-Ops
 
 AI-driven insights for network operations — combining routing data (BGP/OSPF) with large language models for anomaly detection, policy automation, and intelligent troubleshooting.
