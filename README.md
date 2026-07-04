@@ -1,20 +1,27 @@
-<p align="center">
-  <img src="assets/logo-orbital-ai-network-ops.png" width="340" alt="AI Network Ops Logo">
-</p>
+---
 
-<h1 align="center">🤖 AI Network Ops</h1>
-<p align="center">
-  <b>Closed‑loop AI network automation — detect, remediate, and verify.</b><br>
-  <i>Inspired by multivendor‑lab architecture: RFC 6241 confirmed‑commit rollback, anomaly auto‑remediation, and immutable audit trail.</i>
-</p>
+## 📘 Project: AI-Network-Ops
+AI Network Ops brings intelligence to network operations:
+- Multi-vendor orchestration (Juniper / Arista / Nokia SRL / FRR)
+- Risk-gated automation (auto / approve / page-out)
+- Immutable audit trail with confirmed-commit rollback
+- AI-driven anomaly detection and remediation
 
-<p align="center">
-  <img src="https://img.shields.io/badge/build-passing-brightgreen">
-  <img src="https://img.shields.io/badge/license-MIT-yellow">
-  <img src="https://img.shields.io/badge/python-3.10+-orange">
-  <img src="https://img.shields.io/badge/devices-20+-blue">
-  <img src="https://img.shields.io/badge/AI-Orchestrator-purple">
-</p>
+---
+
+## 🧠 Architecture
+![Architecture Diagram](assets/architecture-ai-network-ops.png)
+
+---
+
+## 🚀 Quickstart
+```bash
+git clone https://github.com/imsusovan/ai-network-ops.git
+cd ai-network-ops
+python3 -m venv venv && source venv/bin/activate
+pip install -r requirements.txt
+python3 app.py
+
 
 
 # 📘 Project: AI-Network-Ops
